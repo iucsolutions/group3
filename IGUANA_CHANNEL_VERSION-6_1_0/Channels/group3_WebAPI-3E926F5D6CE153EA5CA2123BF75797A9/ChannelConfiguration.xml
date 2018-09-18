@@ -1,0 +1,27 @@
+<channel
+   name="group3_WebAPI"
+   guid="3E926F5D6CE153EA5CA2123BF75797A9"
+   description=""
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_channel>
+   </to_channel>
+   <from_http
+      type="mapper"
+      guid="group3_WebAPI-FromHTTP-xfVgXR5CjRtBMI"
+      commit_id="9e60e81cff4efac9929aee966e7995530f2c76c6"
+      commit_comment="Import Translators: 3"
+      mapper_url_path="iucwebdevgroup3"/>
+   <message_filter
+      filter_after_logging="false"
+      log_pre_post_filter_message="true"
+      keep_vmd_updated="false"
+      original_vmd_path=""
+      filter_vmd_path=""
+      transformation_mode="0"
+      scripted_transformation_configuration_name="default"
+      error_handling="0"
+      use_translator_filter="true">
+   </message_filter>
+</channel>
